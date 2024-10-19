@@ -1,0 +1,150 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.success {
+    background-color: #4CAF50; /* Hijau untuk sukses */
+    width: 80%;
+    max-width: 500px;
+    margin: 50px auto; /* Pindah ke tengah */
+    padding: 50px;
+    color: #fff;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.error {
+    background-color: #f44336; /* Merah untuk error */
+    width: 80%;
+    max-width: 500px;
+    margin: 50px auto; /* Pindah ke tengah */
+    padding: 50px;
+    color: #fff;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.container {
+    width: 80%;
+    max-width: 500px;
+    margin: auto;
+    background: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+h1, h2 {
+    color: #333;
+    text-align: center;
+}
+
+form {
+    margin-top: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="number"],
+input[type="password"],
+textarea {
+    width: 80%;
+    max-width: 300px;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+input[type="submit"],
+button {
+    background-color: #35424a;
+    color: #ffffff;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 80%;
+    max-width: 125px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+input[type="submit"]:hover,
+button:hover {
+    background-color: #1a242f;
+}
+
+.index-page a,
+.login-page a,
+.register-page a {
+    text-decoration: none;
+    color: #ffffff;
+    display: block;
+    background-color: #35424a;
+    padding: 8px 12px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    text-align: center;
+    width: 80%;
+    max-width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.index-page a:hover,
+.login-page a:hover,
+.register-page a:hover {
+    background-color: #1a242f;
+    text-decoration: none;
+}
+
+.login-page a.register-link {
+    background-color: transparent;
+    color: #35424a;
+    padding: 0;
+    margin: 15px 0 0;
+    display: inline;
+}
+
+.login-page a.register-link:hover {
+    text-decoration: underline;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    background: #e9ecef;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+}
+
+a {
+    text-decoration: none;
+    color: #35424a;
+}
+
+a:hover {
+    text-decoration: underline;
+}
